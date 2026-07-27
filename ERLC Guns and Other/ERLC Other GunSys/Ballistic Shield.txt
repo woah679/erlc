@@ -1,0 +1,67 @@
+require(script.Parent.Parent.AmmoInfo)
+local v1 = {
+	["FOV"] = 40,
+	["ReloadSpeed"] = 3,
+	["WalkingSpeed"] = 10,
+	["RunningSpeed"] = 14,
+	["Range"] = 30,
+	["UseCooldown"] = 7,
+	["Scopes"] = {},
+	["Barrel"] = {},
+	["Magazines"] = {},
+	["CrosshairSize"] = 5,
+	["CrosshairSizeIncrease"] = 30,
+	["ModelKickSpeed"] = 22,
+	["ModelKickDampener"] = 0.8,
+	["CameraKickSpeed"] = 18,
+	["CameraAimKickSpeed"] = 16,
+	["CameraAimSensitivityMult"] = 0.5,
+	["CameraAimKickMax"] = Vector3.new(0.9, 0.6, 0.5),
+	["CameraAimKickMin"] = Vector3.new(0.5, -0.6, -0.5),
+	["CameraKickMax"] = Vector3.new(1.1, 0.6, 0.5),
+	["CameraKickMin"] = Vector3.new(0.6, -0.6, -0.5)
+}
+local v2 = {
+	["S1"] = {
+		["Weild_Idle"] = "rbxassetid://137208701340611",
+		["Idle"] = "rbxassetid://91370152141391",
+		["Aim"] = "rbxassetid://95770100748406",
+		["Reload"] = "rbxassetid://18206316145",
+		["Fire"] = "rbxassetid://115803458645113"
+	},
+	["S2"] = {
+		["Weild_Idle"] = "rbxassetid://127994314898097",
+		["Idle"] = "rbxassetid://81054997746388",
+		["Aim"] = "rbxassetid://121223231462274",
+		["Reload"] = "rbxassetid://118706969305707",
+		["Fire"] = "rbxassetid://108188976504840"
+	},
+	["Live"] = {
+		["Weild_Idle"] = "rbxassetid://74847829066010",
+		["Idle"] = "rbxassetid://73257843661209",
+		["Aim"] = "rbxassetid://98876419452854",
+		["Reload"] = "rbxassetid://93056728078875",
+		["Fire"] = "rbxassetid://91243607174200"
+	}
+}
+v1.ThirdPersonAnimations = v2
+local v3 = {
+	["S1"] = {
+		["Flash"] = "rbxassetid://134457951922563",
+		["Reload"] = "rbxassetid://109764393406437"
+	},
+	["S2"] = {
+		["Flash"] = "rbxassetid://75995339033040",
+		["Reload"] = "rbxassetid://123660639933373"
+	},
+	["Live"] = {
+		["Flash"] = "rbxassetid://93617992808645",
+		["Reload"] = "rbxassetid://95252512515737"
+	}
+}
+v1.FirstPersonAnimations = v3
+v1.SprintViewmodelDisplacement = Vector3.new(-0.5, 0, 0.1)
+v1.sprintViewmodelRotation = Vector3.new(45, 0, -40)
+v1.SwayFreedom = 25
+v1.Sounds = {}
+return v1

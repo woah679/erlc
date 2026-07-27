@@ -1,0 +1,46 @@
+require(script.Parent.Parent.AmmoInfo)
+local v1 = {
+	["FOV"] = 40,
+	["ReloadSpeed"] = 3,
+	["WalkingSpeed"] = 16,
+	["RunningSpeed"] = 22,
+	["Scopes"] = {},
+	["Barrel"] = {},
+	["Magazines"] = {},
+	["CrosshairSize"] = 5,
+	["CrosshairSizeIncrease"] = 30,
+	["ModelKickSpeed"] = 22,
+	["ModelKickDampener"] = 0.8,
+	["CameraKickSpeed"] = 18,
+	["CameraAimKickSpeed"] = 16,
+	["CameraAimSensitivityMult"] = 0.5,
+	["CameraAimKickMax"] = Vector3.new(0.9, 0.6, 0.5),
+	["CameraAimKickMin"] = Vector3.new(0.5, -0.6, -0.5),
+	["CameraKickMax"] = Vector3.new(1.1, 0.6, 0.5),
+	["CameraKickMin"] = Vector3.new(0.6, -0.6, -0.5)
+}
+local v2 = {
+	["S1"] = {
+		["Idle"] = "rbxassetid://109110897670601",
+		["Aim"] = "rbxassetid://109110897670601"
+	},
+	["S2"] = {
+		["Idle"] = "rbxassetid://109110897670601",
+		["Aim"] = "rbxassetid://109110897670601"
+	},
+	["Live"] = {
+		["Idle"] = "rbxassetid://109110897670601",
+		["Aim"] = "rbxassetid://109110897670601"
+	}
+}
+v1.ThirdPersonAnimations = v2
+v1.FirstPersonAnimations = {
+	["S1"] = {},
+	["S2"] = {},
+	["Live"] = {}
+}
+v1.SprintViewmodelDisplacement = Vector3.new(0, 0, 0.1)
+v1.sprintViewmodelRotation = Vector3.new(0, 0, 0)
+v1.SwayFreedom = 25
+v1.Sounds = {}
+return v1

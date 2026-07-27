@@ -1,0 +1,95 @@
+    HEC = {
+        Velocity = 9000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.LaserRender, 
+        SlowObject = false, 
+        Lifetime = 10
+    }, 
+    Darts = {
+        Velocity = 1000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = false, 
+        Model = l_Weapons_0.DartRender, 
+        SlowObject = false, 
+        Lifetime = 10
+    }, 
+    [".45 ACP"] = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 1
+    }, 
+    ["5.56x45mm"] = {
+        Velocity = 2000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 1
+    }, 
+    ["7.62x51mm .308"] = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 1
+    }, 
+    [".50 Action Express"] = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 1
+    }, 
+    ["9x19mm"] = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 1
+    }, 
+    Birdshot = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        Rounds = 25, 
+        Spread = 5, 
+        LandEffect = true, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 0.1, 
+        MaxDistance = 100
+    }, 
+    ["Rubber Pellets"] = {
+        Velocity = 4000, 
+        Acceleration = Vector3.new(0, 0, 0, 0), 
+        Bloom = 0.005, 
+        Size = 0.2, 
+        Rounds = 1, 
+        Spread = 5, 
+        LandEffect = false, 
+        Model = l_Weapons_0.BulletRenderPart, 
+        SlowObject = false, 
+        Lifetime = 0.05, 
+        MaxDistance = 100

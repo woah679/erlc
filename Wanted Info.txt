@@ -1,0 +1,52 @@
+Crimes:
+	Officer Murder - 	120
+	Civilian Murder -  	95
+	Firing On Officer -  	30
+	Assaulted Player - 	15
+	Firing On Helicopter -  10
+	Firing Into a House - 	20
+
+	Damage Vehicle - 30
+	Pop Tire - 	30
+
+	ATM Robbery - 		120
+	House Burglary - 	300
+	Jewelry Robbery - 	120
+	Bank Robbery - 		600
+	Cash Register Robbery - 100
+	Safe Robbery - 		200
+	Breaking Into Vehicle - 60
+	Vehicle Theft - 	200
+
+	Outstanding Traffic Crimes - 65
+	Evasion - 	110
+
+	Manually Set - 		125
+
+	Stealing a Present - 	120
+
+	False Fire Alarm Call - 99
+
+LTAA Time (Timer for robbed money to save):
+
+	Bank Truck     	- 600
+	Bank	   	- 600
+	Jewelry	   	- 240
+	House	  	- 240
+	ATM 		- 240
+	Present 	- 240
+	Cash Register 	- 240
+	Chop Shop	- 300
+
+
+
+Star Time:
+	1    1 -    99
+	1.5  100 -  199
+	2.   200 -  349
+	2.5  350 -  499
+	3    500 -  749
+	3.5  750 -  999
+	4    1000 - 1399
+	4.5  1400 - 1699
+	5   1700 - 9000000000

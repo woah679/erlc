@@ -1,0 +1,105 @@
+require(script.Parent.Parent.AmmoInfo)
+local v1 = {
+	["Damage"] = 24.3,
+	["Ammo"] = "7.62x51mm .308",
+	["AimSpeed"] = 7,
+	["FireRate"] = 0.3,
+	["FOV"] = 40,
+	["WalkingSpeed"] = 16,
+	["RunningSpeed"] = 22,
+	["ReloadSpeed"] = 3.5,
+	["ClipAmmo"] = 20,
+	["TotalAmmo"] = 200,
+	["DamageDropOff"] = {
+		{
+			["distance"] = 0,
+			["scale"] = 1
+		},
+		{
+			["distance"] = 200,
+			["scale"] = 0.8
+		},
+		{
+			["distance"] = 400,
+			["scale"] = 0.7
+		}
+	},
+	["SingleShot"] = false,
+	["PointAim"] = false,
+	["WeaponType"] = "Marksman Rifle",
+	["Scopes"] = {},
+	["Barrel"] = {},
+	["Magazines"] = {},
+	["RecoilPatternX"] = Vector2.new(-1, 1),
+	["RecoilPatternY"] = Vector2.new(0, 0.7),
+	["RecoilPatternZ"] = Vector2.new(0.5, 0.8),
+	["MovementPatternX"] = Vector2.new(-0.5, 0.5) * 0.5,
+	["MovementPatternY"] = Vector2.new(-0.25, 0.45) * 0.5,
+	["MovementPatternZ"] = Vector2.new(-2, -4) * 0.5,
+	["CrosshairSize"] = 5,
+	["CrosshairSizeIncrease"] = 30,
+	["ModelKickSpeed"] = 14,
+	["ModelKickDampener"] = 0.75,
+	["CameraKickSpeed"] = 7,
+	["CameraAimKickSpeed"] = 8,
+	["CameraAimSensitivityMult"] = 0.5,
+	["CameraKickMax"] = Vector3.new(2, -0.1, 0.3),
+	["CameraKickMin"] = Vector3.new(1.8, -0.6, -0.3),
+	["CameraAimKickMax"] = Vector3.new(2, -0.1, 0.3),
+	["CameraAimKickMin"] = Vector3.new(1.7, -0.6, -0.3),
+	["FiringModes"] = { 2 }
+}
+local v2 = {
+	["S1"] = {
+		["Idle"] = "rbxassetid://18206314420",
+		["Aim"] = "rbxassetid://18206322002",
+		["Reload"] = "rbxassetid://18206316145",
+		["Fire"] = "rbxassetid://18206315927"
+	},
+	["S2"] = {
+		["Idle"] = "rbxassetid://100499883803895",
+		["Aim"] = "rbxassetid://91300108862799",
+		["Reload"] = "rbxassetid://118706969305707",
+		["Fire"] = "rbxassetid://118554460381702"
+	},
+	["Live"] = {
+		["Idle"] = "rbxassetid://131584395076870",
+		["Aim"] = "rbxassetid://110514750510089",
+		["Reload"] = "rbxassetid://93056728078875",
+		["Fire"] = "rbxassetid://87349810367043"
+	}
+}
+v1.ThirdPersonAnimations = v2
+local v3 = {
+	["S1"] = {
+		["Fire"] = "rbxassetid://18206321834",
+		["Bolt"] = "rbxassetid://18206320649",
+		["Reload"] = "rbxassetid://18206324202"
+	},
+	["S2"] = {
+		["Fire"] = "rbxassetid://18118406331",
+		["Bolt"] = "rbxassetid://18118413652",
+		["Reload"] = "rbxassetid://18118401097"
+	},
+	["Live"] = {
+		["Fire"] = "rbxassetid://18200575378",
+		["Bolt"] = "rbxassetid://18200574564",
+		["Reload"] = "rbxassetid://18200576895"
+	}
+}
+v1.FirstPersonAnimations = v3
+v1.SprintViewmodelDisplacement = Vector3.new(-0.65, 0, 0.35)
+v1.sprintViewmodelRotation = Vector3.new(40, 0, -35)
+v1.SwayFreedom = 60
+v1.Sounds = {
+	["Fire"] = "rbxassetid://6949677897",
+	["Empty"] = "rbxassetid://18114740803",
+	["Click"] = "rbxassetid://9119713951",
+	["MagIn"] = "rbxassetid://18114743732",
+	["MagOut"] = "rbxassetid://18114742231",
+	["BoltCharge"] = "rbxassetid://18114803209",
+	["BoltRelease"] = "rbxassetid://18114801306",
+	["FlashlightButton"] = "rbxassetid://9114481260",
+	["LaserButton"] = "rbxassetid://9125434587"
+}
+return v1
