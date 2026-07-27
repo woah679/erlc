@@ -1,9 +1,10 @@
-Hellcat 		- https://create.roblox.com/store/asset/6314318144/Rev-tes-Hell-cat
-GTR 			- https://create.roblox.com/store/asset/8546310780/Audiogtr-test
-Basic 			- https://create.roblox.com/store/asset/785952066/V6-Again
-v8 2 - ex: Corbeta X08	- https://create.roblox.com/store/asset/8342431051/AudioMustang-rev2
-v8 1 - ex: Mustang 	- https://create.roblox.com/store/asset/8542197002/AudioMustangRevLoop2
-v10  - ex: Bugatti 	- https://create.roblox.com/store/asset/8540584052/Audiolambrghini
-Truck 			- https://create.roblox.com/store/asset/8734202401/Audiotonka
-Electric 		- https://create.roblox.com/store/asset/16019433056/EV-Drive-loop-2
+As of 7-27-26
 
+Hellcat 	6314318144                    	- https://create.roblox.com/store/asset/6314318144/Rev-tes-Hell-cat
+GTR 		  8546310780                    	- https://create.roblox.com/store/asset/8546310780/Audiogtr-test
+Basic     785952066                     	- https://create.roblox.com/store/asset/785952066/V6-Again
+v8 2      8342431051   - ex: Corbeta X08  - https://create.roblox.com/store/asset/8342431051/AudioMustang-rev2
+v8 1      8542197002   - ex: Mustang    	- https://create.roblox.com/store/asset/8542197002/AudioMustangRevLoop2
+v10       8540584052   - ex: Bugatti    	- https://create.roblox.com/store/asset/8540584052/Audiolambrghini
+Truck 		8734202401    	                - https://create.roblox.com/store/asset/8734202401/Audiotonka
+Electric 	16019433056                    	- https://create.roblox.com/store/asset/16019433056/EV-Drive-loop-2
